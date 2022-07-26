@@ -4,7 +4,6 @@ import AddFish from '../addfish/addFishForm'
 import EditFish from '../editfish/EditFish';
 import Login from '../login/Login';
 import base, { firebaseApp } from "../../base";
-import firebase from 'firebase';
 
 class StoreInventory extends React.Component {
     static propTypes = {
